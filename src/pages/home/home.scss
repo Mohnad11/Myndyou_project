@@ -4,7 +4,7 @@
   height: 100%;
   border-radius: 10px;
   @media screen and (min-width: $mobile-size) {
-    -webkit-box-shadow: -2px 4px 13px 3px rgba(132,132,132,0.64); 
+    -webkit-box-shadow: -2px 4px 13px 3px rgba(132,132,132,0.64);
     box-shadow: -2px 4px 13px 3px rgba(132,132,132,0.64);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -14,9 +14,15 @@
   width: 100%;
   height: 100%;
 }
-
+.main-loader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .breed-list-col{
- 
+
 }
 .images-list-col{
 

@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Router from "./AppRouter";
-import {ThemeContext} from "./context/ThemeContext"
 import AppRouter from "./AppRouter";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeContext.Provider value={'light'}>
-        <AppRouter />
-    </ThemeContext.Provider>
+      <AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
